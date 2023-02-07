@@ -6,7 +6,6 @@
     Height: 720px;
     background-color: #19A1AE;
     position: relative;
-    flex-wrap: wrap;
 }
 .circle2{
 position: absolute;
@@ -22,7 +21,6 @@ right: 0;
     background-color: white;
     border-radius: 15px;
     /* transform: translate(-50%, -50%); */
-
 }
 .photo{
 margin-top: -15%;
@@ -168,21 +166,30 @@ h5{
 
 @media(max-width: 375px){
  .contaner{
-    height: 667px;}
+    height: 667px;
+}
 .circle1{
-    top: 0;
-    right: 0;
+    width: 240px;
+    height: 220px;
+    top: 10px;
+    left: 0;
 }    
+.circle2{
+    width: 240px;
+    height: 220px;
+    bottom: 0;
+    right: 0;
+}
 .card{
     width: 326px;
     height: 374px;
+    left: 25px;
 }
-
-
-.card{
+.top{
     width: 326px;
-    height: 374px;
+    height: 140px;
 }
- 
-
+.line{
+    width: 326px;
+}
 }
